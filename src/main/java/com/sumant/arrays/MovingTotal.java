@@ -1,4 +1,4 @@
-package com.javacodegeeks;
+package com.sumant.arrays;
 
 
 import java.util.Arrays;

@@ -1,6 +1,10 @@
-package com.javacodegeeks;
+package com.sumant.arrays;
 
-public class combination {
+/*
+*
+*combinations of a string
+**/
+public class Combination {
     private void permute(String str, int l, int r) {
         if (l == r)
             System.out.println(str);
@@ -17,7 +21,7 @@ public class combination {
     {
         String str = "ABC";
         int n = str.length();
-        combination permutation = new combination();
+        Combination permutation = new Combination();
         permutation.permute(str, 0, n-1);
     }
 
